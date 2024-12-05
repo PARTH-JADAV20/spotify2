@@ -1,0 +1,52 @@
+#sidebar{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 19% 24% 27% 32%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logobar{
+    padding-left: 10%;
+}
+
+#homebar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 48% 48% 40%;;
+    padding-left: 10%;
+}
+
+#playbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 48% 48% 40%;
+    padding-left: 10%;
+}
+
+#favbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6,25%);
+    padding-left: 10%;
+}
+
+.logos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 70%;
+   
+}
+
+.downlogo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% 70%;
+    padding-left: 10%;
+}

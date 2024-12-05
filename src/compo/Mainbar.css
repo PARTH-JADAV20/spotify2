@@ -1,0 +1,84 @@
+#mainbar{
+    height: 100%;
+    width: 85%;
+    background-color: rgb(19, 19, 19);
+}
+
+#upperrow{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#gm{
+    font-size: 200%;
+    font-weight: 600;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#favlist{
+    display: grid;
+    grid-template-columns: 22% 23% 23% 23%;
+    /* grid-template-rows: 20% 20%; */
+    column-gap: 2%;
+    row-gap: 0%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.list1{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+    height: 80%;
+}
+
+#text11{
+    display: grid;
+    align-items: center;
+    font-size: 110%;
+    font-weight: 600;
+    padding-left: 5%;
+}
+
+.text1{
+    height: 80%;
+    display: grid;
+    align-items: center;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#gmm{
+    font-size: 145%;
+    font-weight: 600;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#songs{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    padding-left: 2%;
+    padding-top: 2%;
+    column-gap: 2.8%;
+}
+
+.box1{
+    background-color: rgb(24, 24, 24);
+    display: grid;
+    grid-template-columns: 100%;
+    padding-left: 8%;
+    padding-top: 8%;
+}
+
+.imges{
+    width: 90%;
+    /* justify-self: center; */
+}
+

@@ -1,0 +1,44 @@
+#bottombar{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    display: grid;
+    grid-template-columns: 25% 52% 25%;
+    grid-template-rows:  100%;
+    position: relative;
+    bottom: 1%;
+    z-index: 1;
+}
+
+#btmlft{
+    display: grid;
+    grid-template-columns: 19% 35% 20%;
+    grid-template-rows: 100%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+#gheart{
+    padding-top: 32%;
+}
+
+#text2{
+    font-size: 80%;
+    font-weight: 600;
+    padding-top: 12%;
+}
+
+#text3{
+    font-size: 60%;
+    font-weight: 600;
+}
+
+#pause{
+    padding-left: 12%;
+    padding-top: 1%;
+}
+
+#btmrgt{
+    padding-top: 8.3%;
+    padding-left: 10%;
+}
