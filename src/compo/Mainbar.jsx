@@ -17,20 +17,23 @@ import './Mainbar.css'
 function Mainbar() {
 
     const data = [
+        { id: 2, img:img11, title: 'Liked Songs', height:"100%" },
         { id: 1, img:img11, title: 'Liked Songs', height:"100%" },
-        { id: 2, img:img12, title: 'NEFFEX Playlist', height:"80%"},
-        { id: 3, img:img13, title: 'K/DA', height:"80%"},
-        { id: 4, img:img14, title: 'Liked Songs', height:"80%"},
-        { id: 5, img:img15, title: 'Dance/Electronics Mix', height:"80%"},
+        { id: 4, img:img12, title: 'NEFFEX Playlist', height:"80%"},
+        { id: 6, img:img13, title: 'K/DA', height:"80%"},
+        { id: 5, img:img13, title: 'K/DA', height:"80%"},
+        { id: 8, img:img14, title: 'Liked Songs', height:"80%"},
+        { id: 10, img:img15, title: 'Dance/Electronics Mix', height:"80%"},
     ];
 
     const data1 = [
-        { id: 1, img:img16},
+        { id: 2, img:img16},
         { id: 2, img:img17},
-        { id: 3, img:img18},
-        { id: 4, img:img19},
-        { id: 5, img:img20},
-        { id: 5, img:img21},
+        { id: 2, img:img18},
+        { id: 2, img:img19},
+        { id: 2, img:img20},
+        { id: 2, img:img21},
+        { id: 1, img:img21},
     ];
 
     return (
@@ -64,7 +67,14 @@ function Mainbar() {
                         <div><img src={img15} alt="" height="80%"></img></div>
                         <div className="text1">Dance/Electronics Mix</div>
                     </div> */}
-                    {data.map((i) => (
+                    {/* {data.map((i) => (
+                        <div className="list1">
+                            <div><img src={i.img} alt="" height={i.height}></img></div>
+                            <div className="text1" >{i.title}</div>
+                        </div>
+                    ))} */}
+                    {data.filter((d) => d.id % 2 === 0)
+                    .map((i) => (
                         <div className="list1">
                             <div><img src={i.img} alt="" height={i.height}></img></div>
                             <div className="text1" >{i.title}</div>
@@ -105,7 +115,8 @@ function Mainbar() {
                         <div className="songtitle">Motivtional daily b...</div>
                         <div className="singer">Parth Jadav</div>
                     </div> */}
-                    {data1.map((j) => (
+                    {data1.filter((d) => d.id % 2 === 0)
+                    .map((j) => (
                         <div className="box1">
                             <div><img src={j.img} alt="" className="imges"></img></div>
                         </div>
