@@ -17,8 +17,6 @@ import './Mainbar.css'
 function Mainbar() {
 
     const data = [
-        { id: 2, img:img11, title: 'Liked Songs', height:"100%" },
-        { id: 1, img:img11, title: 'Liked Songs', height:"100%" },
         { id: 4, img:img12, title: 'NEFFEX Playlist', height:"80%"},
         { id: 6, img:img13, title: 'K/DA', height:"80%"},
         { id: 5, img:img13, title: 'K/DA', height:"80%"},
@@ -47,11 +45,11 @@ function Mainbar() {
                     <div>Good moring</div>
                 </div>
                 <div id="favlist">
-                    {/* <div className="list1">
+                    <div className="list1">
                         <div><img src={img11} alt=""  height="100%"></img></div>
                         <div id="text11">Liked Songs</div>
                     </div>
-                    <div  className="list1">
+                    {/* <div  className="list1">
                         <div><img src={img12} alt="" height="80%"></img></div>
                         <div className="text1">NEFFEX Playlist</div>
                     </div>
